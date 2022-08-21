@@ -22,7 +22,7 @@ public class ThreadLocalServiceTest {
         Thread threadA = new Thread(userA);
         threadA.setName("thread-A");
         Thread threadB = new Thread(userB);
-        threadB.setName("thread-B");
+        threadB.setName("thread-B2");
 
         threadA.start();
         sleep(2000); // 동시성 문제 발생 X
